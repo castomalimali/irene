@@ -1,0 +1,91 @@
+h1{
+    color: blueviolet;
+    background-color: rgb(0, 34, 34);
+    padding:20px;
+    border: 2px solid blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+li{
+    display: inline;
+}
+
+.list{
+    padding: 10px;
+    background-color: aquamarine;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');
+li{
+    list-style: upper-alpha;
+    font-family: poppins;
+    
+    
+}
+.pod{
+    height: 80px;
+    width: 80px;
+    border: 2px solid green;
+    background-color: blue;
+    position: fixed;
+   
+}
+
+.list, #box{
+    font-size: 40px;
+}
+.block{
+
+
+    background-image: url('/img/12.jpg');
+    height: 300px;
+    /* center background image */
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+#box{
+    background-color: none;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 2px solid magenta;
+}
+img{
+    height: 100px;
+}
+.list:hover{
+    color: brown;
+    }
+    a{
+        text-decoration: none;
+        font-size: 24px;
+        color: maroon;
+        text-align: center;
+        justify-content: center;
+    
+      }  
+      a:active{
+        text-decoration: none;
+        font-size: 24px;
+        color: maroon;
+        text-align: center;
+        justify-content: center;
+    
+      }  
+  a:hover{
+    color: chartreuse;
+  
+  }
+  a:visited{
+    color: blue;
+  }
